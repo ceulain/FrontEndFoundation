@@ -1,0 +1,33 @@
+
+html, body, h1, h2, h3, p, div{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+}
+
+h1{
+    font-family: "Helvetic Neue", Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-family: "Helvetic Neue", Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.header{
+    background-color: #999999;
+}
+
+.tagline{
+    background-color: #000000;
+    padding : 20px 0 20px 0;
+}
