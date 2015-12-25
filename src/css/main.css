@@ -83,7 +83,9 @@ h3{
     float: left;
     padding-right: 10px;
 }
-
+.skills{
+    margin-bottom: 20px;
+}
 .skills li{
     font-family: "Helvetic Neue", Helvetica, sans-serif;
     font-weight: bold;
@@ -93,4 +95,11 @@ h3{
     display: inline;
     padding: 8px 8px 8px 8px;
     margin-right: 10px;
+}
+
+
+.footer{
+    background-color: #999999;
+    padding: 20px 0 20px 0;
+    text-align: center;
 }
