@@ -1,5 +1,5 @@
 
-html, body, h1, h2, h3, p, div{
+html, body, h1, h2, h3, p, div, ul, li, ol{
     padding: 0;
     margin: 0;
     border: 0;
@@ -16,10 +16,17 @@ h1{
 
 h2{
     font-family: "Helvetic Neue", Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: normal;
+    font-size: 30px;
+    font-weight: 100;
     text-align: center;
     color: #FFFFFF;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+h2 strong{
+    font-weight: 700;
 }
 
 
@@ -27,7 +34,29 @@ h2{
     background-color: #999999;
 }
 
+h3{
+    font-family: "Helvetic Neue", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid #555555;
+    margin: 20px 0 20px 0;
+
+}
+
 .tagline{
     background-color: #000000;
     padding : 20px 0 20px 0;
+}
+
+.projects{
+    width: 700px;
+    margin: 0 auto;
+}
+.projects ul{
+    list-style-type: none;
+}
+
+.projects li{
+    margin-bottom: 10px;
 }
